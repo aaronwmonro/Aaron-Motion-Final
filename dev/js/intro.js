@@ -4,6 +4,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 
 gsap.set("#circle",{transformOrigin: "center"});
 gsap.set("#bmw",{transformOrigin: "center"});
+gsap.set("#intro-group",{transformOrigin: "center"});
 
 const lineTL = gsap.timeline();
 lineTL.fromTo(".lines",{drawSVG:"0%"}, {duration: 1.5, drawSVG:"100% 85%"})
@@ -21,6 +22,15 @@ lineTL.fromTo(".lines",{drawSVG:"0%"}, {duration: 1.5, drawSVG:"100% 85%"})
 .to("#bmw-top-right",{duration:.5, xPercent:200, opacity: 0}, "-=0.5")
 .to("#bmw-bottom-right",{duration:.5, yPercent:200, opacity: 0}, "-=0.5")
 .to("#bmw-bottom-left",{duration:.5, xPercent:-200, opacity: 0}, "-=0.5")
+.fromTo(".draw-outlines-1",{drawSVG:"0%"}, {duration: 2, drawSVG:"30%"}, "outlineTime")
+.fromTo(".draw-outlines-2",{drawSVG:"40% 50%"}, {duration: 2, drawSVG:"40% 100%"}, "outlineTime")
+.from("#line-logo",{duration: 2, drawSVG:"0%"}, "outlineTime")
+.from("#logo-top-left",{duration:1, yPercent:-200, opacity: 0}, "outlineTime")
+.from("#logo-top-right",{duration:1, xPercent:200, opacity: 0}, "outlineTime")
+.from("#logo-bottom-right",{duration:1, yPercent:200, opacity: 0}, "outlineTime")
+.from("#logo-bottom-left",{duration:1, xPercent:-200, opacity: 0}, "outlineTime")
+.from(".type-logo-series",{duration:2, yPercent:-200, opacity: 0}, "outlineTime")
+
 // .to("#circle", {drawSVG:"true", duration: 1})
        
 
