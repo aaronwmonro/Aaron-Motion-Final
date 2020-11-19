@@ -444,3 +444,7 @@ textarea {
 #motion-final > div svg #circle {
   opacity: 0;
 }
+#motion-final > div svg #speed-rectangle {
+  opacity: 0;
+  margin-top: 2vh;
+}
