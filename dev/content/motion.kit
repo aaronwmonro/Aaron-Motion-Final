@@ -3,19 +3,74 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 768">
   <defs>
-   
+    <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="79.8051579%" gradientTransform="matrix(0 1 -.45393 0 .5 -.5)" id="radialGradient-1">
+      <stop stop-color="#035E7A" stop-opacity="0" offset="0%"/>
+      <stop offset="100%"/>
+    </radialGradient>
+  
+    <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="79.8051579%" gradientTransform="matrix(0 1 -.5888 0 .5 -.5)" id="radialGradient-3">
+      <stop stop-color="#035E7A" stop-opacity="0" offset="0%"/>
+      <stop offset="100%"/>
+    </radialGradient>
+
+    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="47.4439112%" gradientTransform="matrix(0 -1 .771 0 .11450348 1)" id="radialGradient-4">
+      <stop stop-color="#013449" offset="0%"/>
+      <stop offset="100%"/>
+    </radialGradient>
+
+ 
+ 
+    <clipPath id="gps-cp">
+      <ellipse id="gps-clip" fill="red" cx="514" cy="273" rx="307" ry="250"/>
+  </clipPath>
+  <clipPath id="gps-cp-2">
+    <path d="M768.449412 273.002323c-9.536392 133.034616-120.484912 238-255.949412 238s-246.41302-104.965384-255.949412-238h511.898824z" id="gps-clip-2" fill="red"/>
+</clipPath>
+    
     <clipPath id="speed-cp">
       <path d="M1026.381 382.5l.664 392.53C382.9 780.69 41.142 782.556 1.771 780.634c-10.228-.5-17.908-2.232-23.08-5.085-5.705-3.147-8.545-7.624-8.686-13.338-.257-10.41 9.34-25.695 29.555-45.711h471.403a98 98 0 0069.297-28.704h0l275.421-275.42a102 102 0 0172.125-29.876h138.575z" id="speed-clip" stroke="#05FF00" stroke-width="4" fill="#05FF00"/>
   </clipPath>
+
+  <clipPath id="app-cp">
+    <path d="M790.429904 379.000001l90.77996.193903c-23.851752 1.490908-46.443135 11.529938-63.563703 28.371803h0l-.581929.577168-275.421357 275.421357c-18.658933 18.658933-43.899398 29.223175-70.26647 29.432604h0l-.797761.003892h-89.943168l6.984651-.995002c21.201683-3.020298 41.003107-12.828586 56.323121-28.148601h0l275.421357-275.421357C738.212011 389.588362 763.774579 379 790.429904 379.000001h0z" id="app-clip" stroke="#FFF" fill="#7EFF00"/>
+</clipPath>
+
+<clipPath id="rpm-cp">
+  <path d="M1040.25088-53.5v206H887.10369c-15.912989 0-31.174224-6.32141-42.426407-17.573593L723.824469 14.0735931C712.572287 2.82141042 697.311052-3.5 681.398063-3.5H16.2508763v-50H1040.25088z" stroke="#05FF00" stroke-width="4"  id="rmp-clip" fill="#76FF00"/>
+</clipPath>
+
+<clipPath id="gas-cp">
+  <path d="M10.75-52l.0008763 48.48543689H682.637334c15.694425 0 30.754902 6.14895594 41.960549 17.11278881l.464663.4596092L847.439207 136.427602c11.097947 11.097322 26.095458 17.398296 41.771653 17.568843l.653559.003555h-64.011605c-15.91299 0-31.174224-6.32141-42.426407-17.573593L662.573593 15.5735931C651.32141 4.32141042 636.060176-2 620.147186-2H-45v-50h55.75z" id="gas-clip" fill="red"/>
+</clipPath>
+
+<clipPath id="music-cp">
+  <path d="M-18.5 695.5v-133h560.007L437.296802 666.710678c-16.387813 16.387813-37.877871 26.500324-60.736428 28.790963L-18.5 695.5z" id="music-clip" fill="red"/>
+</clipPath>
 
     <path d="M97 770.5h470.579a100 100 0 0070.71-29.29l275.422-275.42a100 100 0 0170.71-29.29H1121v384H97v-50z" id="path-1"/>
   </defs>
   <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g id="bmw-intro">
       <path id="background" fill="#000" d="M0-1h1025v769H0z"/>
+      <!-- <g id="background-gradient" transform="translate(0 -3)">
+        <path id="Rectangle" fill="url(#radialGradient-1)" d="M0 0h987v276H0z"/>
+        <path id="Rectangle" fill="url(#radialGradient-2)" transform="rotate(-180 534.5 414)" d="M41 276h987v276H41z"/>
+      </g> -->
+      <g id="background-gradient" transform="translate(0 -3)" fill="url(#radialGradient-4)">
+        <path id="Rectangle" transform="rotate(-180 512 277.5)" d="M0 3h1024v549H0z"/>
+      </g>
          <!-- @import "intro.kit" -->
-          <!-- @import "outlines.kit" -->
+          <!-- @import "gauges/gps.kit" -->
+         <!-- @import "gauges/music.kit" -->
+         <!-- @import "gauges/gas.kit" -->
+          <!-- @import "gauges/rpm.kit" -->
+         <!-- @import "gauges/cars.kit" -->
+         <!-- @import "gauges/pnmd.kit" -->
           <!-- @import "gauges/speed.kit" -->
+           <!-- @import "gauges/apps.kit" -->
+           <!-- @import "gauges/pnmd.kit" -->
+            <!-- @import "outlines.kit" -->
+            
      
     </g>
   </g>

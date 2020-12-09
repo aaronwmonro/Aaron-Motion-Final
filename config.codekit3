@@ -38,6 +38,62 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/gauges/apps.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/apps.html",
+		"oF": 0
+		},
+	"/dev/content/gauges/cars.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/cars.html",
+		"oF": 1
+		},
+	"/dev/content/gauges/gas.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/gas.html",
+		"oF": 0
+		},
+	"/dev/content/gauges/gps.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/gps.html",
+		"oF": 1
+		},
+	"/dev/content/gauges/music.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/music.html",
+		"oF": 0
+		},
+	"/dev/content/gauges/pnmd.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/pnmd.html",
+		"oF": 0
+		},
+	"/dev/content/gauges/rpm.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges/rpm.html",
+		"oF": 0
+		},
 	"/dev/content/gauges/speed.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -93,6 +149,50 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/driving.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/driving-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/gauges/apps.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gauges/apps-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/gauges/pnmd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gauges/pnmd-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/gauges/rpm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gauges/rpm-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/gauges/speed.js": {
 		"bF": 0,
@@ -257,6 +357,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_apps.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_apps.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_motion.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -266,6 +379,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_motion.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_pnmd.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_pnmd.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_speed.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_speed.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

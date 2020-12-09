@@ -448,3 +448,35 @@ textarea {
   opacity: 0;
   margin-top: 2vh;
 }
+
+.cars-outline {
+  stroke-width: 1px;
+}
+
+#m {
+  opacity: 0;
+}
+
+#n {
+  opacity: 0;
+}
+
+#d {
+  opacity: 0;
+}
+
+#app-background {
+  opacity: 0.15;
+  fill: #fff;
+}
+
+.app-icons {
+  scale: 1.1;
+}
+
+#speed-rectangle {
+  fill: white;
+  fill-opacity: 0.15;
+  stroke: #009ADA;
+  stroke-width: 2px;
+}
